@@ -113,7 +113,6 @@ function matrixGenerator(matrixSize,cow, grassEater,snake) {
 ////
 
 var matrix = matrixGenerator(30, 20,6)
-console.log(matrix);
 var grassArr = []
 var waterArr = []
 var cowArr = []
@@ -210,7 +209,6 @@ function draw() {
       for(let i in cowArr){
          cowArr[i].move()
       }
-console.log(warmWaterArr.length);
       for(let i in warmWaterArr){
           warmWaterArr[i].mul()
           warmWaterArr[i].stop()
@@ -221,5 +219,8 @@ console.log(warmWaterArr.length);
 }
 
 
+// let erexa1= new Child("Hayk",14,"male");
 
-
+// console.log(erexa1.name);
+// erexa1.walk();
+//  console.log(erexa1.beautiful)
